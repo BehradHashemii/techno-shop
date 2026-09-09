@@ -1,0 +1,213 @@
+:root {
+  --color-surface: #f8f9ff;
+  --color-surface-dim: #cbdbf5;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d3e4fe;
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #3f4850;
+  --color-inverse-surface: #213145;
+  --color-inverse-on-surface: #eaf1ff;
+  --color-outline: #707881;
+  --color-outline-variant: #bfc7d2;
+  --color-surface-tint: #006398;
+  --color-primary: #006194;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #007bb9;
+  --color-on-primary-container: #fdfcff;
+  --color-inverse-primary: #93ccff;
+  --color-secondary: #565e74;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #dae2fd;
+  --color-on-secondary-container: #5c647a;
+  --color-tertiary: #006947;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #00855b;
+  --color-on-tertiary-container: #f5fff6;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #cce5ff;
+  --color-primary-fixed-dim: #93ccff;
+  --color-on-primary-fixed: #001d31;
+  --color-on-primary-fixed-variant: #004b73;
+  --color-secondary-fixed: #dae2fd;
+  --color-secondary-fixed-dim: #bec6e0;
+  --color-on-secondary-fixed: #131b2e;
+  --color-on-secondary-fixed-variant: #3f465c;
+  --color-tertiary-fixed: #6ffbbe;
+  --color-tertiary-fixed-dim: #4edea3;
+  --color-on-tertiary-fixed: #002113;
+  --color-on-tertiary-fixed-variant: #005236;
+  --color-background: #f8f9ff;
+  --color-on-background: #0b1c30;
+  --color-surface-variant: #d3e4fe;
+
+  --color-brand-primary: #0284c7;
+  --color-brand-primary-hover: #0369a1;
+  --color-brand-secondary: #0f172a;
+  --color-brand-tertiary: #10b981;
+  --color-brand-neutral: #64748b;
+  --color-canvas-base: #f8fafc;
+  --color-layer-1: #ffffff;
+  --color-layer-2: #f1f5f9;
+  --color-border-ghost: #e2e8f0;
+  --color-border-hover: #cbd5e1;
+  --color-badge-stock-bg: #ecfdf5;
+  --color-badge-stock-text: #047857;
+  --color-badge-discount: #ef4444;
+
+  --font-family-base:
+    "Plus Jakarta Sans", "Vazirmatn", "Shabnam", system-ui, -apple-system,
+    sans-serif;
+
+  --font-display-hero-size: 40px;
+  --font-display-hero-weight: 800;
+  --font-display-hero-line-height: 52px;
+  --font-display-hero-letter-spacing: -0.02em;
+
+  --font-display-hero-mobile-size: 30px;
+  --font-display-hero-mobile-weight: 800;
+  --font-display-hero-mobile-line-height: 42px;
+  --font-display-hero-mobile-letter-spacing: -0.01em;
+
+  --font-headline-lg-size: 24px;
+  --font-headline-lg-weight: 700;
+  --font-headline-lg-line-height: 36px;
+
+  --font-headline-md-size: 20px;
+  --font-headline-md-weight: 700;
+  --font-headline-md-line-height: 30px;
+
+  --font-headline-sm-size: 18px;
+  --font-headline-sm-weight: 600;
+  --font-headline-sm-line-height: 28px;
+
+  --font-title-base-size: 16px;
+  --font-title-base-weight: 600;
+  --font-title-base-line-height: 26px;
+
+  --font-body-lg-size: 15px;
+  --font-body-lg-weight: 400;
+  --font-body-lg-line-height: 26px;
+
+  --font-body-base-size: 14px;
+  --font-body-base-weight: 400;
+  --font-body-base-line-height: 24px;
+
+  --font-body-sm-size: 12px;
+  --font-body-sm-weight: 400;
+  --font-body-sm-line-height: 20px;
+
+  --font-label-lg-size: 13px;
+  --font-label-lg-weight: 600;
+  --font-label-lg-line-height: 18px;
+
+  --font-label-md-size: 11px;
+  --font-label-md-weight: 500;
+  --font-label-md-line-height: 16px;
+
+  --font-price-hero-size: 22px;
+  --font-price-hero-weight: 800;
+  --font-price-hero-line-height: 28px;
+
+  --font-price-card-size: 17px;
+  --font-price-card-weight: 700;
+  --font-price-card-line-height: 24px;
+
+  --radius-sm: 0.25rem;
+  --radius-default: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  --spacing-gutter-xs: 0.25rem;
+  --spacing-gutter-sm: 0.5rem;
+  --spacing-gutter-md: 0.75rem;
+  --spacing-gutter-lg: 1rem;
+  --spacing-gutter-xl: 1.5rem;
+  --spacing-gutter-2xl: 2rem;
+  --spacing-page-mobile: 1rem;
+  --spacing-page-tablet: 1.5rem;
+  --spacing-card-inner: 0.875rem;
+
+  --shadow-elevation-1:
+    0px 2px 8px -2px rgba(15, 23, 42, 0.04),
+    0px 1px 4px -1px rgba(15, 23, 42, 0.02);
+  --shadow-elevation-2:
+    0px 12px 24px -6px rgba(15, 23, 42, 0.08),
+    0px 4px 8px -2px rgba(15, 23, 42, 0.03);
+  --shadow-elevation-3: 0 -4px 20px -2px rgba(15, 23, 42, 0.06);
+
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: 1px solid rgba(226, 232, 240, 0.8);
+  --glass-blur: blur(16px);
+
+  --layout-bottom-nav-height: 64px;
+  --safe-bottom-space: calc(
+    var(--layout-bottom-nav-height) + env(safe-area-inset-bottom, 16px)
+  );
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-family-base);
+  font-feature-settings: "tnum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-color: var(--color-canvas-base);
+  color: var(--color-on-surface);
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: var(--color-canvas-base);
+  color: var(--color-on-surface);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
