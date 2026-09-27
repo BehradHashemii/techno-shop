@@ -62,8 +62,7 @@
   --color-badge-discount: #ef4444;
 
   --font-family-base:
-    "Plus Jakarta Sans", "Vazirmatn", "Shabnam", system-ui, -apple-system,
-    sans-serif;
+    "Vazirmatn", "Shabnam", system-ui, -apple-system, sans-serif;
 
   --font-display-hero-size: 40px;
   --font-display-hero-weight: 800;
@@ -160,12 +159,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--font-family-base) !important;
 }
 
 html {
-  direction: rtl;
-  text-align: right;
-  font-family: var(--font-family-base);
   font-feature-settings: "tnum";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
